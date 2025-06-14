@@ -38,6 +38,7 @@ import { STATUS_CODES } from "https-status-handler";
 res.status(STATUS_CODES.BAD_GATEWAY.code).json({
   message: STATUS_CODES.BAD_GATEWAY.description,
 });
+```
 
 ---
 
@@ -115,4 +116,7 @@ res.status(STATUS_CODES.BAD_GATEWAY.code).json({
 | LOOP_DETECTED                   | 508  | Loop detected                   | The server detected an infinite loop while processing the request.                              |
 | NOT_EXTENDED                    | 510  | Not extended                    | Further extensions to the request are required for the server to fulfill it.                    |
 | NETWORK_AUTHENTICATION_REQUIRED | 511  | Network authentication required | The client needs to authenticate to gain network access.                                        |
+
+```
+
 ```
