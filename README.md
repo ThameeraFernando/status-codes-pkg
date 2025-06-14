@@ -18,7 +18,7 @@ Import the `STATUS_CODES` object from the package and use the HTTP status codes 
 
 ### Using short messages
 
-If you want to send a concise status message, use the `message` property:
+If you want to send a concise status message, use the `message` property.
 
 ```ts
 import { STATUS_CODES } from "https-status-handler";
@@ -30,7 +30,7 @@ res.status(STATUS_CODES.BAD_GATEWAY.code).json({
 
 ### Using detailed descriptions
 
-If you want to provide more descriptive information about the status code, use the `description` property:
+If you want to provide more descriptive information about the status code, use the `description` property.
 
 ```ts
 import { STATUS_CODES } from "https-status-handler";
