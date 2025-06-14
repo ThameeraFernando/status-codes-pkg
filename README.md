@@ -1,4 +1,4 @@
-# https-status-handler
+# http-status-handler
 
 A lightweight and developer-friendly utility package to access HTTP status codes by name instead of remembering numbers.
 
