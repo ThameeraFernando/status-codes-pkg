@@ -1,0 +1,22 @@
+{
+  "name": "http-status-codes",
+  "description": "Provides easy-to-use utilities and mappings for HTTP status codes in JavaScript and TypeScript",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "homepage": "https://github.com/ThameeraFernando/status-codes-pkg",
+  "repository": "https://github.com/ThameeraFernando/status-codes-pkg",
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "thameera_fernando",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3"
+  }
+}
