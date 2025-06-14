@@ -11,7 +11,9 @@
     "build": "tsup"
   },
   "keywords": [
-    "test"
+    "http",
+    "status",
+    "codes"
   ],
   "author": "thameera_fernando",
   "license": "MIT",
