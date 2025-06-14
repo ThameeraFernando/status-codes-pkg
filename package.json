@@ -1,5 +1,5 @@
 {
-  "name": "https-status-handler",
+  "name": "@thameera/https-status-handler",
   "description": "Provides easy-to-use utilities and mappings for HTTP status codes in JavaScript and TypeScript",
   "version": "1.0.0",
   "main": "./dist/index.js",
